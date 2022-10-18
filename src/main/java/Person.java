@@ -1,4 +1,4 @@
-public abstract class Person {
+public class Person {
     final long id=423;
     private String name;
 

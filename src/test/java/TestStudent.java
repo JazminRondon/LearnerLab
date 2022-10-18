@@ -13,14 +13,14 @@ public class TestStudent {
     }
     @Test
     public void testInheritance(){
-        Student student=new Student();
+        Student student=new Student(03,"Jazmin",10.0);
         Assertions.assertTrue(student instanceof Person);
     }
 
     @Test
     public void testLearn(){
    //given
-    Student student=new Student();
+    Student student=new Student(03,"Jazmin",10.0);
     Double expected=9.0;
     //when
     student.learn(9);
